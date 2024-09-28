@@ -378,6 +378,20 @@ footer p span {
 }
 
 @media (max-width: 767px) {
+  .services h2,
+  .portfolio h2,
+  .about h2,
+  .contact h2 {
+    font-size: 65px;
+  }
+  .services .container > p,
+  .portfolio .container > p,
+  .about .container > p,
+  .contact .container > p {
+    margin: -27px 0 100px 0;
+    font-size: 16px;
+  }
+
   .features .container .feat {
     width: 100%;
     margin-bottom: 20px;
@@ -405,11 +419,9 @@ footer p span {
     margin: 0 auto 20px;
   }
 
-  .contact .contact-content p:first-child {
-    font-size: 28px;
-  }
+  .contact .contact-content p:first-child,
   .contact .contact-content p:nth-child(2) {
-    font-size: 28px;
+    font-size: 20px;
   }
 }
 
